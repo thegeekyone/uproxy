@@ -47,7 +47,6 @@ class CordovaBrowserApi implements BrowserAPI {
 
   public handlePopupLaunch :() => void;
   private onceLaunched_ :Promise<void>;
-
   private browser_ :Window = null;
 
   constructor() {
@@ -190,10 +189,23 @@ class CordovaBrowserApi implements BrowserAPI {
     * Callback passed to chrome.app.window.create.
     */
   private newPopupCreated_ = (popup :chrome.app.window.AppWindow) => {
+    this.addDeviceReady(popup);
     console.log("Time between browser icon click and popup launch (ms): " +
         (Date.now() - this.popupCreationStartTime_));
     this.popupState_ = PopupState.LAUNCHED;
   }
+
+  private addDeviceReady = (popup :any) => {
+    popup.document.addEventListener('deviceready', this.deviceReady)
+  }
+
+  public deviceReady = () :Promise<void> => {
+    alert("Device Ready in browser api");
+    return new Promise<void>((F, R) => {
+      return;
+    });	
+  }
+
 
   public showNotification = (text :string, tag :string) => {
     // We use chrome.notifications because the HTML5 Notification API is not

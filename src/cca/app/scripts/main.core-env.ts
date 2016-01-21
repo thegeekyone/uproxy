@@ -40,12 +40,14 @@ browserApi.bringUproxyToFront().then(() => {
 });
 
 console.log('Loading core');
-freedom('generic_core/freedom-module.json', <freedom.FreedomInCoreEnvOptions>{
-  'logger': 'uproxy-lib/loggingprovider/freedom-module.json',
-  'debug': 'debug',
-  'portType': 'worker'
-}).then((uProxyModuleFactory:OnEmitModuleFactory) => {
-  console.log('Core loading complete');
-  haveAppChannel(uProxyModuleFactory());
-});
 
+browserApi.deviceReady().then(() => {
+  freedom('generic_core/freedom-module.json', <freedom.FreedomInCoreEnvOptions>{
+    'logger': 'uproxy-lib/loggingprovider/freedom-module.json',
+    'debug': 'debug',
+    'portType': 'worker'
+  }).then((uProxyModuleFactory:OnEmitModuleFactory) => {
+    console.log('Core loading complete');
+    haveAppChannel(uProxyModuleFactory());
+  });
+});
