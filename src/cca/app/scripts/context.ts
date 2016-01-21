@@ -20,17 +20,17 @@ chrome.runtime.getBackgroundPage((bgPage) => {
   model = ui.model;
   console.log('Got references from background page; importing vulcanized');
 
-  document.addEventListener("deviceready", function () {
-    alert("device ready in context.ts");
-    (<any>cordova).plugins.iosrtc.registerGlobals();
-    var path = "freedom-for-chrome/freedom-for-chrome.js";
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = path;
-    script.async = false;
-    bgPage.document.getElementsByTagName("head")[0].appendChild(script);
-    alert("adding: " + path);	
-  });
+//  document.addEventListener("deviceready", function () {
+//    alert("device ready in context.ts");
+//    (<any>cordova).plugins.iosrtc.registerGlobals();
+//    var path = "freedom-for-chrome/freedom-for-chrome.js";
+//    var script = document.createElement("script");
+//    script.type = "text/javascript";
+//    script.src = path;
+//    script.async = false;
+//    bgPage.document.getElementsByTagName("head")[0].appendChild(script);
+//    alert("adding: " + path);	
+//  });
   
   var link = document.createElement('link');
   link.rel = 'import';
