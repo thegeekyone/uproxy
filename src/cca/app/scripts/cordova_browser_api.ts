@@ -45,6 +45,11 @@ class CordovaBrowserApi implements BrowserAPI {
 
   private popupState_ = PopupState.NOT_LAUNCHED;
 
+  public onDeviceReady: () => void;
+  public deviceReadyPromise = new Promise<void>((F, R) => {
+      this.onDeviceReady = F;
+  });
+
   public handlePopupLaunch :() => void;
   private onceLaunched_ :Promise<void>;
   private browser_ :Window = null;
@@ -196,14 +201,11 @@ class CordovaBrowserApi implements BrowserAPI {
   }
 
   private addDeviceReady = (popup :any) => {
-    popup.document.addEventListener('deviceready', this.deviceReady)
+      popup.Window.document.addEventListener('deviceready', this.onDeviceReady)
   }
 
   public deviceReady = () :Promise<void> => {
-    alert("Device Ready in browser api");
-    return new Promise<void>((F, R) => {
-      return;
-    });	
+      return this.deviceReadyPromise;
   }
 
 
