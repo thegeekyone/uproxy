@@ -129,7 +129,8 @@ import ui = ui_connector.connector;
           if (typeof this.publicKey !== 'undefined' &&
               typeof globals.publicKey !== 'undefined' &&
               // No need to encrypt again for networks like Quiver
-              !this.user.network.encryptsWithClientId()) {
+              !this.user.network.encryptsWithClientId() &&
+              true === false) {
             crypto.signEncrypt(JSON.stringify(data.data), this.publicKey)
             .then((cipherText :string) => {
               data.data = cipherText;
@@ -187,7 +188,8 @@ import ui = ui_connector.connector;
           typeof globals.publicKey !== 'undefined' &&
           // signal data is not encrypted for Quiver, because entire message
           // is encrypted over the network and already decrypted by this point
-          !this.user.network.encryptsWithClientId()) {
+          !this.user.network.encryptsWithClientId() &&
+          true === false) {
         return crypto.verifyDecrypt(<string>msg.data, this.publicKey)
         .then((plainText :string) => {
           return this.handleDecryptedSignal_(
