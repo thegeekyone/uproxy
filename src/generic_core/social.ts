@@ -46,6 +46,7 @@ export var LOGIN_TIMEOUT :number = 5000;  // ms
 // PREFIX is the string prefix indicating which social providers in the
 // freedom manifest we want to treat as social providers for uProxy.
 var PREFIX :string = 'SOCIAL-';
+
 // Global mapping of social network names (without prefix) to actual Network
 // instances that interact with that social network.
 //
@@ -53,6 +54,11 @@ var PREFIX :string = 'SOCIAL-';
 // This simplified Social to being a SocialNetwork and removes the need for
 // this module. `initializeNetworks` becomes part of the core constructor.
 export var networks:{[networkName:string] :{[userId:string]:social.Network}} = {};
+
+// Names of networks supporting the v2 (jsurl) invite format.
+// TODO: Always generate v2 invites, once we think all/most users
+//       have more up to date clients.
+const V2_INVITE_NETWORK_NAMES = ['Quiver', 'Cloud'];
 
 export function removeNetwork(networkName :string, userId :string) :void {
   delete networks[networkName][userId];
@@ -617,18 +623,19 @@ export function notifyUI(networkName :string, userId :string) {
     // For other social networks, the url adds the local user as a uproxy
     // contact for friends who use the url. The userId isn't used.
     public getInviteUrl = (userId ?:string) : Promise<string> => {
-      return this.freedomApi_.inviteUser(userId || '')
-          .then((networkData: Object) => {
-        if (this.name === 'Quiver') {
+      return this.freedomApi_.inviteUser(userId || '').then((networkData: Object) => {
+        if (V2_INVITE_NETWORK_NAMES.indexOf(this.name) !== -1) {
           // TODO: once we think all/most users have versions of uProxy
           // that support jsurl style invites, we should update all our
           // social networks to generate those invites.
-          var urlParams :string[] = [
+          var urlParams: string[] = [
             'v=2',
-            'networkName=Quiver',
-            'userName=' + encodeURIComponent(this.myInstance.userName),
+            'networkName=' + this.name,
             'networkData=' + jsurl.stringify(networkData)
           ];
+          if (this.myInstance.userName) {
+            urlParams.push('userName=' + encodeURIComponent(this.myInstance.userName));
+          }
           return 'https://www.uproxy.org/invite?' + urlParams.join('&');
         } else {
           var tokenObj = {
@@ -640,7 +647,7 @@ export function notifyUI(networkName :string, userId :string) {
           return 'https://www.uproxy.org/invite/' +
               btoa(JSON.stringify(tokenObj));
         }
-      })
+      });
     }
 
     public sendEmail = (to: string, subject: string, body: string): void => {
