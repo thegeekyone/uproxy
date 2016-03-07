@@ -90,6 +90,9 @@ import ui = ui_connector.connector;
 
     private connection_ :remote_connection.RemoteConnection = null;
 
+    // Disable crypto for iOS testing
+    private cryptoDisabled = true;
+
     /**
      * Construct a Remote Instance as the result of receiving an instance
      * handshake, or loadig from storage. Typically, instances are initialized
@@ -131,7 +134,7 @@ import ui = ui_connector.connector;
               // No need to encrypt again for networks like Quiver
               !this.user.network.isEncrypted() &&
               // temporarily disable crypto for ios
-              true === false) {
+              !this.cryptoDisabled) {
             crypto.signEncrypt(JSON.stringify(data.data), this.publicKey)
             .then((cipherText :string) => {
               data.data = cipherText;
@@ -191,7 +194,7 @@ import ui = ui_connector.connector;
           // is encrypted over the network and already decrypted by this point
           !this.user.network.isEncrypted() &&
           // temporarily disable crypto for ios
-          true === false) {
+          !this.cryptoDisabled) {
         return crypto.verifyDecrypt(<string>msg.data, this.publicKey)
         .then((plainText :string) => {
           return this.handleDecryptedSignal_(
