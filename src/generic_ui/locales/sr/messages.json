@@ -1,7 +1,7 @@
 {
   "DONE": {
     "description": "Button label that suggests acknowledgement and that closes a popup.",
-    "message": "Done"
+    "message": "Završeno"
   },
   "YES": {
     "description": "Button label.",
@@ -85,7 +85,7 @@
   },
   "WAITING_FOR_ACCESS": {
     "description": "User will be able to access the Internet through their friend, once that friend gives the user permission.",
-    "message": "You will be able to get access when __name__ accepts."
+    "message": "Dobićete pristup kad __name__ dozvoli."
   },
   "CANCEL_REQUEST": {
     "description": "Label for button which will take back a request to get Internet access through a friend.",
@@ -101,11 +101,11 @@
   },
   "IGNORE": {
     "description": "Button label that ignores an offer or request.",
-    "message": "Ignoriši"
+    "message": "Zanemari ponudu"
   },
   "STOP_IGNORING_OFFERS": {
     "description": "Button label for if the user wants to stop ignoring offers.",
-    "message": "Stop ignoring offers"
+    "message": "Prestanak zanemarivanja ponuda"
   },
   "ASK_FOR_ACCESS": {
     "description": "Button label that sends a request to the user's friend, asking if the user can access the Internet through them.",
@@ -137,11 +137,11 @@
   },
   "STOP_IGNORING_REQUESTS": {
     "description": "Button label for if the user wants to stop ignoring requests.",
-    "message": "Stop ignoring requests"
+    "message": "Prestanak zanemarivanja zahteva"
   },
   "ACCESS_NOT_GRANTED": {
     "description": "The user has not permissioned a friend to access the Internet through the user.",
-    "message": "You have not granted them access."
+    "message": "Onemogucen pristup."
   },
   "OFFER_ACCESS": {
     "description": "Label for button that will offer a friend access to the Internet through the user, even though the friend has not requested access.",
@@ -165,11 +165,11 @@
   },
   "NO_LONGER_GETTING": {
     "description": "Message shown when a one-time connection ends.",
-    "message": "You are no longer getting access. To request a connection, click the button below."
+    "message": "Nemate više pristup. Da zahtevate konekciju, klikni na dugme ispod."
   },
   "NO_LONGER_SHARING": {
     "description": "Message shown when a one-time connection ends and the user was sharing.",
-    "message": "You are no longer sharing access.  Click the button below to request a connection or paste a request link from a friend to share access again."
+    "message": "Završili ste deljenje vaše konekcije. Klikni na dugme ispod da zatražite pristup ili da podelite link prijatelju da bi ste opet podelili vašu konekciju."
   },
   "START_NEW_CONNECTION": {
     "description": "Label for button that takes user back to the 'Start a one-time connection' page.",
@@ -177,7 +177,7 @@
   },
   "ERROR_STARTING_CONNECTION": {
     "description": "Error shown if a one-time connection failed to start.",
-    "message": "There was an error starting the connection and it had to be terminated. Please try starting another connection."
+    "message": "Greška prilikom startovanja konekcije i zbog toga je prekinuta. Molimo vas da pokušate da pokrenete drugu konekciju."
   },
   "SEND_CONNECTION_LINK": {
     "description": "Instructions for the user to share their connection with a one-time link.",
