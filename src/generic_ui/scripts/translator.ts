@@ -33,6 +33,8 @@ var turkish_source = require('../locales/tr/messages.json');
 var vietnamese_source = require('../locales/vi/messages.json');
 var arabic_source = require('../locales/ar/messages.json');
 var farsi_source = require('../locales/fa/messages.json');
+var serbian_source_latin = require('../locales/sr/messages.json');
+var serbian_source_cryillic = require('../locales/rs/messages.json');
 
 function createI18nDictionary(sourceFile :MessageResource) : IResourceStoreKey {
   var i18nDictionary :IResourceStoreKey = {};
@@ -53,6 +55,8 @@ i18n.addResources('tr', 'translation', createI18nDictionary(turkish_source));
 i18n.addResources('vi', 'translation', createI18nDictionary(vietnamese_source));
 i18n.addResources('ar', 'translation', createI18nDictionary(arabic_source));
 i18n.addResources('fa', 'translation', createI18nDictionary(farsi_source));
+i18n.addResources('sr', 'translation', createI18nDictionary(serbian_source_latin));
+i18n.addResources('rs', 'translation', createI18nDictionary(serbian_source_cryillic));
 
 export var i18n_t = (placeholder :string, params?: any) :string => {
   for (var p in params) {
