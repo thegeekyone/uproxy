@@ -81,7 +81,7 @@
   },
   "ASKING_FOR_ACCESS": {
     "description": "The user is asking for permission to access the Internet through their friend; user is waiting for the friend's reply.",
-    "message": "Asking for access"
+    "message": "Zahtev za pristup"
   },
   "WAITING_FOR_ACCESS": {
     "description": "User will be able to access the Internet through their friend, once that friend gives the user permission.",
@@ -93,7 +93,7 @@
   },
   "OFFERED_YOU_ACCESS": {
     "description": "A friend has offered their Internet access to the user.",
-    "message": "They've offered you access."
+    "message": "Ponuda pristupa."
   },
   "ACCEPT_OFFER": {
     "description": "Accept a friend's offer that would allow the user to access the Internet through their friend.",
@@ -133,7 +133,7 @@
   },
   "FRIEND_REQUESTED_ACCESS": {
     "description": "A friend has requested to access the Internet through the user.",
-    "message": "They requested access through you."
+    "message": "Zahteva pristup od vas."
   },
   "STOP_IGNORING_REQUESTS": {
     "description": "Button label for if the user wants to stop ignoring requests.",
@@ -141,7 +141,7 @@
   },
   "ACCESS_NOT_GRANTED": {
     "description": "The user has not permissioned a friend to access the Internet through the user.",
-    "message": "Onemogucen pristup."
+    "message": "Onemogućen pristup."
   },
   "OFFER_ACCESS": {
     "description": "Label for button that will offer a friend access to the Internet through the user, even though the friend has not requested access.",
@@ -153,7 +153,7 @@
   },
   "REQUEST_ONE_TIME": {
     "description": "Request access to the user's friend's Internet using a link that will only work once.",
-    "message": "Zahtev za jednokratnu kontekciju"
+    "message": "Zahtev za jednokratnu konekciju"
   },
   "START_ONE_TIME": {
     "description": "Start an Internet connection using a link that will only work once.",
@@ -393,7 +393,7 @@
   },
   "CONNECT_TO_FRIEND": {
     "description": "Title above instructions that tell the user how to add a uProxy friend.",
-    "message": "Connect to a friend"
+    "message": "Spoji se sa prijateljom"
   },
   "CONNECT_TO_FRIEND_MESSAGE": {
     "description": "Instructions that appears beside a big '+' button. Clicking the button opens a panel with options to add a uProxy friend.",
@@ -565,7 +565,7 @@
   },
   "SET_UP_ONE_TIME": {
     "description": "Clickable link on the login page. As an alternative to logging in to a social network, user's can attempt a connection with a one-time link.",
-    "message": "Set up a one-time connection"
+    "message": "Podesi jednokratnu konekciju"
   },
   "WE_WONT_POST": {
     "description": "Inform the user that uProxy does not share data or post to their social network accounts without agreement from the user.",
@@ -577,43 +577,43 @@
   },
   "HAVE_AN_INVITE_CODE": {
     "description": "Text above a button that asks the user if they already have a uProxy invite code",
-    "message": "Have an invite code?"
+    "message": "Imate li pozivnicu?"
   },
   "ENTER_IT_HERE": {
     "description": "Text for button that opens a view for the user to enter their uProxy invite code",
-    "message": "Enter it here"
+    "message": "Unesite ovde"
   },
   "LEARN_MORE_SOCIAL": {
     "description": "Label for button that brings user to more information about why social networks are used for uProxy.",
-    "message": "Learn more about social networks"
+    "message": "Saznaj više o društvenim mrežama"
   },
   "EXPERIMENTAL": {
     "description": "Label below social networks (on the login page) indicating that a social network is experimental.",
-    "message": "Experimental"
+    "message": "Eksperimentalno"
   },
   "ASK_TO_ANALYZE": {
     "description": "Text in a popup that appears when an attempt to access the Internet through a friend fails.",
-    "message": "It could be that your network's NAT type is incompatible with uProxy. Would you like uProxy to analyze your network?"
+    "message": "Moguće je da vaša NAT mreža nije kompatabilna sa uProxy. Da li želite da uProxy da analizira vašu mrežu?"
   },
   "UNABLE_TO_GET": {
     "description": "Title for popup that appears when an attempt to access the Internet through a friend fails.",
-    "message": "Unable to get access"
+    "message": "Nije moguće dobiti pristup"
   },
   "UNABLE_TO_SHARE": {
     "description": "Title for popup that appears when an attempt to share the Internet with a friend fails.",
-    "message": "Unable to share access"
+    "message": "Deljenje pristupa nije moguće"
   },
   "ANALYZING_NETWORK": {
     "description": "Message shown when the user's network is being analyzed.",
-    "message": "Analyzing network"
+    "message": "Analiziram mrežu"
   },
   "ANALYSIS_RESULTS": {
     "description": "A summary of the user's network analysis.",
-    "message": "It looks like you are on a __natType__, which is __natImpact__ interfering with your ability to connect to friends."
+    "message": "Izgleda da ste na __natType__, koji __natImpact__ se meša i onemogućuje da se povežete sa prijateljima."
   },
   "MORE_INFO": {
     "description": "Link to 'Does uProxy log data about me?' question in the FAQ.",
-    "message": "More info"
+    "message": "Više Informacija"
   },
   "ASK_TO_SUBMIT_ANALYSIS": {
     "description": "Asks the user if they are willing to share their network analysis results with uProxy, to help the development of uProxy.",
@@ -621,59 +621,59 @@
   },
   "VERY_LIKELY": {
     "description": "Meaning high probability. Used in context of the probability that network settings are preventing a uProxy connection from being established. Used in analysisResults string.",
-    "message": "most likely"
+    "message": "najverovatnije"
   },
   "POSSIBLY": {
     "description": "Meaning medium probability. Used in context of the probability that network settings are preventing a uProxy connection from being established. Used in analysisResults string.",
-    "message": "possibly"
+    "message": "verovatno"
   },
   "UNLIKELY": {
     "description": "Meaning very low probability. Used in context of the probability that network settings are preventing a uProxy connection from being established. Used in analysisResults string.",
-    "message": "probably not"
+    "message": "verovatno ne"
   },
   "PRIVACY_POLICY": {
     "description": "Link to uProxy's privacy policy.",
-    "message": "Privacy policy"
+    "message": "Pravilnik o privatnosti"
   },
   "STARTED_PROXYING": {
     "description": "Notification for when a friend has started accessing the Internet through the user.",
-    "message": "__name__ started proxying through you"
+    "message": "__name__ started proxying kroz vas"
   },
   "STOPPED_PROXYING": {
     "description": "Notification for when a friend has stopped accessing the Internet through the user.",
-    "message": "__name__ stopped proxying through you"
+    "message": "__name__ prekinuo proxy kroz vas"
   },
   "UNABLE_TO_SHARE_WITH": {
     "description": "Error message seen in uProxy when a friend failed to get access to the Internet through the user.",
-    "message": "Unable to share access with __name__"
+    "message": "Nije moguće da delim pristup sa __name__"
   },
   "UNABLE_TO_GET_FROM": {
     "description": "Error message seen in uProxy when the user failed to get access to the Internet through a friend.",
-    "message": "Unable to get access from __name__"
+    "message": "Nije moguće pristupiti __name__"
   },
   "GETTING_ACCESS_FROM": {
     "description": "Message in a status bar that is visible when the user is getting access from a friend.",
-    "message": "Getting access from __name__"
+    "message": "Primam pristup od __name__"
   },
   "GETTING_ACCESS_FROM_FRIEND": {
     "description": "Message in a status bar that is visible when the user is getting access from a nameless friend",
-    "message": "Currently getting access from a friend"
+    "message": "Trenutno primam pristup od prijatelja"
   },
   "SHARING_ACCESS_WITH_ONE": {
     "description": "Message in a status bar that is visible when one friend is getting access through the user.",
-    "message": "Sharing access with __name__"
+    "message": "Delim pristup sa __name__"
   },
   "SHARING_ACCESS_WITH_TWO": {
     "description": "Message in a status bar that is visible when two friends are getting access through the user.",
-    "message": "Sharing access with __name1__ and __name2__"
+    "message": "Delim pristup sa __name1__ i __name2__"
   },
   "SHARING_ACCESS_WITH_MANY": {
     "description": "Message in a status bar that is visible when three or more friends are getting access through the user.",
-    "message": "Sharing access with __name__ and __numOthers__ others"
+    "message": "Delim pristup sa __name__ i jos __numOthers__"
   },
   "SHARING_ACCESS_WITH_FRIEND": {
     "description": "Message in a status bar that is visible when the user is sharing access with a nameless friend",
-    "message": "Currently sharing access with a friend"
+    "message": "Trenutno delim pristup sa prijateljom"
   },
   "LOGGED_OUT": {
     "description": "Notification for when the user has been logged out of the social network.",
@@ -681,11 +681,11 @@
   },
   "GRANTED_ACCESS_NOTIFICATION": {
     "description": "Notification for when a user's request to access the Internet through a friend has been accepted by that friend.",
-    "message": "__name__ granted you access"
+    "message": "__name__ je odobrio pristup"
   },
   "OFFERED_ACCESS_NOTIFICATION": {
     "description": "Notification for when the user receives an offer from a friend to access the Internet through them.",
-    "message": "__name__ offered you access"
+    "message": "__name__ ponudio pristup"
   },
   "ACCEPTED_OFFER_NOTIFICATION": {
     "description": "Notification for when a friend has accepted the user's offer to share their Internet with that friend.",
@@ -761,7 +761,7 @@
   },
   "PORT_CONTROL_NOT_SUPPORTED_INFO": {
     "description": "Extra information displayed when port control is not supported",
-    "message": "You may be able to enable port control to make uProxy more reliable."
+    "message": "Preporučujemo da uključite kontrolu porta (NAT-PMP, PCP ili UPnP) tako da uProxy bude stabilniji."
   },
   "PORT_CONTROL_NOT_SUPPORTED_INFO_LINK": {
     "description": "Link text right after the PORT_CONTROL_NOT_SUPPORTED_INFO text",
@@ -789,15 +789,15 @@
   },
   "ENTER_INVITATION": {
     "description": "Title for screen where user enters an invitation",
-    "message": "Enter an invitation"
+    "message": "Unesi pozivnicu"
   },
   "ENTER_INVITATION_DESCRIPTION": {
     "description": "Instructions for user to enter an invitation",
-    "message": "If you've received an invitation from a friend you'd like to use uProxy with, paste it here:"
+    "message": "Ako ste primili pozivnicu od prijatelja sa koji bi ste želeli da koristite uProxy, unesite ovde:"
   },
   "SUBMIT_BUTTON_TEXT": {
     "description": "Button that submits some data entered by the user, e.g. entering a friend invite",
-    "message": "Submit"
+    "message": "Prosledi"
   },
   "INVITE_LINK_FROM_ACCEPT_PAGE": {
     "description": "Link to send an invite if the user is already on the accept-invite page.",
@@ -933,7 +933,7 @@
   },
   "WHAT_IS_UPROXY": {
     "description": "FAQ",
-    "message": "What is uProxy?"
+    "message": "Šta je uProxy?"
   },
   "WHAT_IS_UPROXY_ANSWER": {
     "description": "",
@@ -941,7 +941,7 @@
   },
   "WHERE_TO_GET": {
     "description": "FAQ",
-    "message": "Where should I get uProxy?"
+    "message": "Gde mogu da skinem uProxy?"
   },
   "WHERE_TO_GET_ANSWER": {
     "description": "",
@@ -957,19 +957,19 @@
   },
   "WHY_DOES_UPROXY_CONNECT": {
     "description": "",
-    "message": "Why does uProxy connect to social networks?"
+    "message": "Zašto se uProxy spaja na društvene mreže?"
   },
   "WHY_DOES_UPROXY_CONNECT_ANSWER": {
     "description": "",
-    "message": "<p>uProxy needs a way to see when your friends are online, and it needs to exchange information (IP address, port, and encryption keys) between peers to set up direct connections. Instead of operating a central service that could be easily blocked, uProxy connects to social networks that you and your friends are already using. They are only used to help establish a direct connection between users; proxied Internet traffic is not sent through the social network. <strong>uProxy will never post publicly on your behalf.</strong> It only exchanges private messages with friends you choose who are also running uProxy. You can read more about trusting social networks <a href=\"https://github.com/uProxy/uproxy/wiki/Trust\">here</a>.</p>"
+    "message": "<p>uProxy needs a way to see when your friends are online, and it needs to exchange information (IP adrese, port, i enrkiptovani ključevi) between peers to set up direct connections. Instead of operating a central service that could be easily blocked, uProxy connects to social networks that you and your friends are already using. They are only used to help establish a direct connection between users; proxied Internet traffic is not sent through the social network. <strong>uProxy will never post publicly on your behalf.</strong> It only exchanges private messages with friends you choose who are also running uProxy. You can read more about trusting social networks <a href=\"https://github.com/uProxy/uproxy/wiki/Trust\">here</a>.</p>"
   },
   "DOES_UPROXY_LOG_DATA_SHORT": {
     "description": "",
-    "message": "Does uProxy collect data about me?"
+    "message": "Da li uProxy sakuplja podatke o meni?"
   },
   "DOES_UPROXY_LOG_DATA": {
     "description": "",
-    "message": "Does uProxy log data about me, and what is uProxy’s privacy policy?"
+    "message": "Da li uProxy čuva podatke o meni, i kakva je uProxy politika zaštite privatnosti?"
   },
   "DOES_UPROXY_LOG_DATA_ANSWER": {
     "description": "",
@@ -1071,23 +1071,23 @@
   },
   "HOW_DOES_UPROXY_COMPARE": {
     "description": "",
-    "message": "How does uProxy compare to VPNs?"
+    "message": "Poređenje uProxy sa VPN-om?"
   },
   "HOW_DOES_UPROXY_COMPARE_ANSWER": {
     "description": "",
-    "message": "<p>uProxy is designed to be trustworthy and resistant to blocking.</p><p>VPN users typically connect to easily-identified servers, and VPN traffic can easily be identified and blocked. In contrast, uProxy users connect to each other rather than to common servers, and uProxy makes its traffic hard to identify and therefore hard to block.</p><p>In addition, VPN services can monitor which websites you visit, and many don’t keep this data private. uProxy users place their trust in their connections through friends, rather than in VPN services they may know little about.</p><p>Besides not knowing what VPNs do with their users’ browsing data, it can also be hard to know and trust VPN client and server software, especially when it’s closed source. In contrast, uProxy is open source, and faces ongoing public scrutiny. Whenever possible, uProxy avoids requiring users to put blind faith in software whose trustworthiness cannot be verified.</p>"
+    "message": "<p>uProxy je dizajniran da bude pouzdan i otporan na blokadu sadržaja.</p><p>VPN korisnici uglvavnom se spajaju na dobro poznate servere, i VPN saobracaj sa lakoćom se može identifikovani i blokirati. Za razliku od VPN, uProxy korisnici se međusobno spajaju umesto na uobičajne servere, i zato je saobraćaj uProxy teško identifikovati i blokirati.</p><p>I još, VPN provajderi mogu da vide na koje ste sajtove pristupili, i mnogi od ovih podataka nisu privatni. Dok korisnici uProxy stavljaju poverenje svoje konekcije samo prijateljima tj. ljudima koji poznajemo, umesto VPN provajderima koji ionako ne znamo mnogo.</p><p>Ne samo što ne znamo šta VPN provajderi rade sa podacima korisnika, takođje je tesko imati poverenja u VPN klijet-server softver, naročito kad je zatvoren kod. Dok je uProxy otvoren kod, i suočava se sa javnim ispitivanjem tog koda. Kad je god moguće, uProxy će izbegavati zahteve da od korisnika da stavi veru u softver čija se pouzdanost ne može potvrditi.</p>"
   },
   "WHO_MADE_UPROXY": {
     "description": "",
-    "message": "Who is developing uProxy?"
+    "message": "Ko programira uProxy?"
   },
   "WHO_MADE_UPROXY_ANSWER": {
     "description": "",
-    "message": "<p>uProxy is being developed by the University of Washington. The project was seeded by Google Ideas and has received contributions from Google, Brave New Software, and the open source community.</p>"
+    "message": "<p>uProxy je programiran od strane University of Washington. Pa je projekat preuzet od strane Google Ideas pa dalje razivanje nastavilo od strane Google, Brave New Software, kao i open source zajednice.</p>"
   },
   "WHAT_IS_ALPHA": {
     "description": "",
-    "message": "What is an alpha release?"
+    "message": "Šta je alpha verzija?"
   },
   "WHAT_IS_ALPHA_ANSWER": {
     "description": "",
@@ -1095,7 +1095,7 @@
   },
   "WHAT_IS_BETA": {
     "description": "",
-    "message": "What is a beta release?"
+    "message": "Šta je beta verzija?"
   },
   "WHAT_IS_BETA_ANSWER": {
     "description": "",
@@ -1115,11 +1115,11 @@
   },
   "UPROXY_NETWORK_LOGIN_TITLE": {
     "description": "Title for when the user is logging into the uProxy network (via settings or a link)",
-    "message": "Sign in to the uProxy network"
+    "message": "Pijavi se na uProxy"
   },
   "UPROXY_NETWORK_INVITE_LOGIN_MESSAGE": {
     "description": "Message instructing user to login to the uProxy network to accept an invitation.",
-    "message": "To add __name__ as a friend, please sign into the uProxy network"
+    "message": "Da dodate __name__ kao prijatelja, molimo vas da se prijavite na uProxy"
   },
   "UPROXY_NETWORK_SIGN_IN": {
     "description": "Sign in button for the uProxy network",
