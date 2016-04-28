@@ -37,7 +37,7 @@
   },
   "SUBMIT_FEEDBACK": {
     "description": "Submit feedback to the uProxy team.",
-    "message": "Pošaljite nam povratne informacije"
+    "message": "Prosledi povratne informacije"
   },
   "SENDING_FEEDBACK": {
     "description": "Message in dialog indicating feedback is being sent to the uProxy team.",
@@ -161,11 +161,11 @@
   },
   "ERROR_PARSING_LINK": {
     "description": "Error shown if a one-time connection link did not work.",
-    "message": "There was an error parsing the uproxy connection link, please try navigating to the link again or asking your friend for a new link."
+    "message": "Greška prilikom analize uproxy veze, molimo vas da opet pokušate da pokrenete link ili da pitate vašeg prijatelja da vam pošalje nov link."
   },
   "NO_LONGER_GETTING": {
     "description": "Message shown when a one-time connection ends.",
-    "message": "Nemate više pristup. Da zahtevate konekciju, klikni na dugme ispod."
+    "message": "Nemate više pristup konekciji. Da zahtevate konekciju, klikni na dugme ispod."
   },
   "NO_LONGER_SHARING": {
     "description": "Message shown when a one-time connection ends and the user was sharing.",
@@ -173,7 +173,7 @@
   },
   "START_NEW_CONNECTION": {
     "description": "Label for button that takes user back to the 'Start a one-time connection' page.",
-    "message": "Start getting a new connection"
+    "message": "Startuj novu konekciju"
   },
   "ERROR_STARTING_CONNECTION": {
     "description": "Error shown if a one-time connection failed to start.",
@@ -181,199 +181,199 @@
   },
   "SEND_CONNECTION_LINK": {
     "description": "Instructions for the user to share their connection with a one-time link.",
-    "message": "To share your connection, please ask your friend to send you their link."
+    "message": "Da bi ste podelili vašu konekciju, molimo da upitate vašeg prijatelja da vam pošalje link."
   },
   "COPY_CONNECTION_LINK": {
     "description": "Instructions for the user to request access from a friend with a one-time link.",
-    "message": "To request access from a friend, copy and paste this link to them over a channel you trust."
+    "message": "Da zahtevate konekciju od prijatelja, kopirajte ovaj link i pošaljite putem poverljivih kanala."
   },
   "LOADING": {
     "description": "Message show when something is taking time to load.",
-    "message": "Loading..."
+    "message": "Učitavam..."
   },
   "FRIEND_NEEDS_TO_CLICK": {
     "description": "Instructions telling the user their friend needs to take an action to finish setting up the one-time connection and then their friend will send back a link.",
-    "message": "After your friend has opened the link, they'll send a link to you in return. Click on the link or paste it below."
+    "message": "Kada vaš prijatelj otvori link, onda će prijatelj poslati vama link. Klikni na link ili nalepite dole."
   },
   "ONE_TIME_SHARING_SUCCESS": {
     "description": "Inform the user that they are now successfully sharing access through a one-time connection",
-    "message": "You are now sharing access with your friend."
+    "message": "Sada delite konekciju sa Prijateljom."
   },
   "ONE_TIME_SHARING_STOP_DIRECTIONS": {
     "description": "Directions for how to stop sharing access; should refer to the act of clicking the button below which should also have a fairly obvious label.",
-    "message": "To stop sharing access, click the button below."
+    "message": "Da prekinete deljenje konekcije, klikni na dugme ispod."
   },
   "ONE_TIME_GETTING_SUCCESS": {
     "description": "Inform the user that they have now successfully set up a connection through which they can get access.  This message should in no way imply that they are actually getting access (there will be another message prompting them to start using the connection).",
-    "message": "Success! A one time connection has been set up successfully."
+    "message": "Uspešno! Jednokratna konekcija uspešno podešena."
   },
   "START_ONE_TIME_INSTRUCTION": {
     "description": "",
-    "message": "To start getting access from your friend, click the button below."
+    "message": "Da bi ste započeli primanje internet konekcije od prijatelja, klikni na dugme ispod."
   },
   "STOP_ONE_TIME_INSTRUCTION": {
     "description": "",
-    "message": "To stop getting access from your friend, click the button below."
+    "message": "Da prekinete primanje internet konekcije od prijatelja, klikni na dugme ispod."
   },
   "ONE_TIME_GETTING": {
     "description": "The user is connected to the Internet through their friend.",
-    "message": "You are currently getting access."
+    "message": "Trenutno imate pristup konekciji."
   },
   "STOP_ONE_TIME_GETTING_BEFORE_NEW": {
     "description": "Instruction for the user to stop a current one-time connection if they want to start a new one.",
-    "message": "If you would like to start a new one-time connection, press \"Stop Getting Access\" first."
+    "message": "Ako želite da pokrenete novu jednokratnu konekciju, prvo pritisni na \"Zaustavi pristup\" "
   },
   "FRIEND_REQUESTED_ONE_TIME": {
     "description": "A friend has requested to access the Internet through the user.",
-    "message": "Your friend has requested to use your Internet connection."
+    "message": "Tvoj prijatelj želi da se pristupi vašoj Internet konekciji."
   },
   "HOW_TO_OFFER_ONE_TIME": {
     "description": "Instructions for user if they'd like to share their Internet connection with a one-time link.",
-    "message": "If you'd like to give them access, copy and paste this URL back to them."
+    "message": "Ako želite da delite pristup konekciji, kopirajte i podelite ovaj URL osobi."
   },
   "GET_ONE_TIME_INSTEAD": {
     "description": "Label for a link to the 'Start a one-time connection' page.",
-    "message": "Get access instead"
+    "message": "Ipak želim pristup konekciji"
   },
   "TRYING_TO_SHARE_ONE_TIME": {
     "description": "Instructions for user if they want to get access instead, while attempting to share access.",
-    "message": "You are currently in the process of trying to share access. If you would like to get access instead, click the link above."
+    "message": "Trenutno ste u procesu pokušaja deljenja konekcije. Ako ipak želite da dobijete pristup konekciji umesto deljenja konekcije, kliknite na link iznad."
   },
   "GET_ONE_TIME_INSTEAD_INSTRUCTION": {
     "description": "Instructions for the user if they want to abort an existing attempt and start a new one-time connection.",
-    "message": "If you would like to start a one-time connection with someone else, press the \"Back\" button and then \"Start a one-time connection\" to start a new session."
+    "message": "Ako želite da počnete jednokratnu konekciju sa nekim drugim, pritisni na \"Nazad\" dugme, a zatim klikni na \"Započni jednokratnu konekciju\" za početak nove sesije."
   },
   "ONE_TIME_SHARING": {
     "description": "The user is sharing their Internet access with a friend.",
-    "message": "You are currently sharing access."
+    "message": "Trenutno delite konekciju."
   },
   "STOP_ONE_TIME_SHARING": {
     "description": "Label for button to terminate your connection to a friend who is accessing the Internet through you.",
-    "message": "Stop sharing access"
+    "message": "Zaustavi deljenje konekcije"
   },
   "STOP_ONE_TIME_SHARING_BEFORE_NEW": {
     "description": "Instruction for the user to stop a current one-time connection if they want to start a new one.",
-    "message": "If you would like to start a new one-time connection, press \"Stop Sharing Access\" first."
+    "message": "Ako želite da započnete novu jednokratnu konekciju , prvo pritisnite \"Zaustavi deljenje konekcije\"."
   },
   "ONE_TIME_LINK_INPUT_DESCRIPTION": {
     "description": "Text (appearing within the input box) informing the user that they can paste the one-time connection link they get back from their friend here.  It should be clear that it is the link from the friend and not the link they just copied above.",
-    "message": "Link from your friend"
+    "message": "Link od vašeg prijatelja"
   },
   "ONE_TIME_LINK_INPUT_ERROR": {
     "description": "Error message to show the user if they paste a poorly-formatted link into a texbox.  Should prompt them to try pasting the link again.",
-    "message": "Unable to recognize this link. Please check for accuracy and try again."
+    "message": "Nije moguće prepoznati ovaj link. Molimo vas da proverite ovaj link i pokušajte ponovo."
   },
   "SUBMIT_ONE_TIME_LINK": {
     "description": "Text for a button the user may click after pasting in a (probably valid) one-time connection link into a textbox above the button.",
-    "message": "Submit"
+    "message": "Prosledi"
   },
   "GO_BACK": {
     "description": "Go back to the main page from the one-time connection page.",
-    "message": "Go back?"
+    "message": "Vrati se?"
   },
   "ARE_YOU_SURE": {
     "description": "Question confirming if the user wants to end an active connection to a friend.",
-    "message": "Are you sure you want to end this one-time connection?"
+    "message": "Da li ste sigurni da želite da prekinete ovu jednokratnu konekciju?"
   },
   "SUBMIT_FEEDBACK_SENTENCE_CASE": {
     "description": "Submit feedback to the uProxy team.",
-    "message": "Submit feedback"
+    "message": "Prosledi povratne informacije"
   },
   "EMAIL_TITLE": {
     "description": "",
-    "message": "Email (optional)"
+    "message": "Email (opcionalno)"
   },
   "EMAIL_PLACEHOLDER": {
     "description": "",
-    "message": "Email address"
+    "message": "Email adresa"
   },
   "FEEDBACK_TITLE": {
     "description": "Label for textbox for user's to submit feedback and comments to uProxy.",
-    "message": "Enter your feedback below"
+    "message": "Ovde dole unesite povratne informacije"
   },
   "FEEDBACK_PLACEHOLDER": {
     "description": "The default text that appears in the user feedback textbox.",
-    "message": "Write your feedback"
+    "message": "Napišite povratne informacije"
   },
   "FEEDBACK_ERROR_PLACEHOLDER": {
     "description": "Error that apears if you try to submit an empty feedback.",
-    "message": "Please enter some feedback"
+    "message": "Unesite povratne informacije"
   },
   "NETWORK_AND_LOGS": {
     "description": "Label for a checkbox that indicates if the user wants uProxy to analyze their network settings and include their uProxy logs with their feedback to the uProxy team.",
-    "message": "Analyze network and include logs"
+    "message": "Analiziraj Mrežu i uključi evidencije"
   },
   "ANALYZE_NAT": {
     "description": "The text for a button in the settings pane the user can click to check their NAT settings and view the latest logs uProxy has collected",
-    "message": "Analyze NAT"
+    "message": "Analiziraj NAT"
   },
   "P_I_I_MESSAGE": {
     "description": "Message helping make sure the user understands that personally identifiable information may be included in their feedback to uProxy.",
-    "message": "Your feedback and email address will be sent to uProxy.org. Your logs, network information and email may include personally identifiable information."
+    "message": "Vaše povratne informacije i email adresa će biti poslata na uProxy.org. Vaše evidencije, infomacija o mreži i e-mail može da obuhvati lične podatke."
   },
   "THANK_YOU": {
     "description": "",
-    "message": "Thank you!"
+    "message": "Hvala!"
   },
   "FEEDBACK_SUBMITTED": {
     "description": "User feedback was successfully submitted.",
-    "message": "Your feedback has been submitted to the uProxy development team."
+    "message": "Vaša povratna informacija je prosleđena timu uProxy."
   },
   "EMAIL_INSTEAD_TITLE": {
     "description": "Title for error that appears if feedback submission failed.",
-    "message": "Email feedback instead?"
+    "message": "Povratna informacija putem Email?"
   },
   "EMAIL_INSTEAD_MESSAGE": {
     "description": "Seen if feedback submission through uProxy fails. Message asks users to email their feedback instead.",
-    "message": "Oops! We were unable to submit your feedback to uproxy.org. Please copy and paste your feedback in an email to info@uproxy.org."
+    "message": "Upsss! Mi nismo u mogućnosti da prosledimo vašu povratnu informaciju na uproxy.org. Molimo vas da kopirate vašu povratnu informaciju na email adresu info@uproxy.org."
   },
   "LOGS_TITLE": {
     "description": "Title for the page that displays a user's network information and uProxy logs.",
-    "message": "Logs & Network Analysis"
+    "message": "Evidencija i Analiza mreže "
   },
   "TO_SEND_LOGS": {
     "description": "Instructions guiding the user through how to submit their logs to uProxy.",
-    "message": "To send your logs to the uProxy team for help, open uProxy and click 'Submit Feedback'"
+    "message": "Da pošaljete evidenciju uProxy timu za pomoć, otvori uProxy i klikni na 'Prosledi povratne informacije'"
   },
   "RETRIEVING_LOGS": {
     "description": "Message shown while uProxy is analyzing the user's network settings.",
-    "message": "Retrieving logs and analyzing your network..."
+    "message": "Preuzimam evidenciju i analiziram vašu mrežu..."
   },
   "ERROR_SIGNING_IN": {
     "description": "Notification for when the user could not be signed in to a social network.",
-    "message": "There was a problem signing in to __network__.  Please try again."
+    "message": "Pojavio se problem tokom prijavljivanja na __network__.  Molimo vas da pokušate ponovo."
   },
   "ATTEMPTING_RECONNECT": {
     "description": "uProxy was disconnected from the social network and is trying to reconnect.",
-    "message": "Attempting to re-connect."
+    "message": "Pokušaj ponovnog povezivanja."
   },
   "CANNOT_OPEN_ONE_TIME_TITLE": {
     "description": "Title for an error popup that appears if the user tries to open a one-time link while signed in to a social network.",
-    "message": "Cannot open one-time connection"
+    "message": "Nije moguće otvoriti jednokratnu konekciju"
   },
   "CANT_OPEN_ONE_TIME_MESSAGE": {
     "description": "Text for an error popup that appears if the user tries to open a one-time link while signed in to a social network.",
-    "message": "It is not currently possible to open a manual connection at the same time as being signed in to a social network.  To launch a manual connection, please log out through the settings menu and re-paste the link."
+    "message": "Trenutno nije moguće otvoriti ručnu konekciju dok ste prijavljenji na društvenoj mreži. Da bi ste ručno podesili konekciju, molimo da To launch a manual connection, please log out through the settings menu and re-paste the link."
   },
   "STATS_ENABLED_TITLE": {
     "description": "The user has elected to submit anonymous statistics about their uProxy usage to the uProxy team.",
-    "message": "Anonymous stats enabled"
+    "message": "Anonimna statistika uključena"
   },
   "STATS_ENABLED_TOOLTIP": {
     "description": "Text that appears in a tooltip when the user hovers over the 'anonymous stats enabled' icon.",
-    "message": "You are sharing anonymous stats."
+    "message": "Vi delite anonimnu statistiku."
   },
   "SHARING_ENABLED_TITLE": {
     "description": "Title for popup that points to the sharing icon in uProxy's top toolbar. The popup appears when the user first grants access to one of their friends. The sharing icon is visible as long as there are friends who can get access to the user's Internet.",
-    "message": "Sharing Enabled"
+    "message": "Deljenje Uključeno"
   },
   "SHARING_ENABLED_MESSAGE": {
     "description": "Text in a popup that explains what the sharing icon (on the toolbar) is.",
-    "message": "This icon means you're available for sharing access with friends you've offered access to."
+    "message": "Ova ikona označava da ste u mogućnosti da delite pristup konekciji sa prijateljima kome ste ponudili pristup."
   },
   "SHARING_ENABLED_TOOLTIP": {
     "description": "Text that appears in a tooltip when the user hovers over the sharing icon.",
-    "message": "You are available for sharing."
+    "message": "Vi ste u mogućnosti da delite pristup."
   },
   "GET_ACCESS": {
     "description": "Text for the tab on the toolbar. When the user is on the 'Get Access' tab, they are looking to get access to the Internet through a friend.",
@@ -417,135 +417,135 @@
   },
   "IM_IN": {
     "description": "Agree to submitting anonymous metrics to uProxy.",
-    "message": "I'm in"
+    "message": "Prihvatam"
   },
   "NO_THANKS": {
     "description": "Do not agree to submitting anonymous metrics to uProxy.",
-    "message": "No thanks"
+    "message": "Ne Hvala"
   },
   "DISCONNECTED_TITLE": {
     "description": "Title for error that appears when the user was getting access to the Internet through their friend, but that connection was terminated.",
-    "message": "Oops! You've been disconnected from your friend."
+    "message": "Upsss! Prekinuta veza	sa prijateljom."
   },
   "DISCONNECTED_MESSAGE": {
     "description": "Instruction informing the user that if they want to browse the Internet and stop waiting for reconnection, the user will need to use their local (potentially unsafe and/or censored) connection.",
-    "message": "If you disable the proxy, your web traffic will no longer be routed through your friend. You may want to close any sensitive pages you have open, before proceeding."
+    "message": "Ako onemogućite proxy, vaš web saobraćaj neće biti preusmerena preko vašeg prijatelja. Trebalo bi da zatvorite bilo kakve osetljive strane koje ste otvorili, pre nego što nastavite."
   },
   "CONTINUE_BROWSING": {
     "description": "Label for button that will change the users Internet settings back to using the user's local connection (i.e. not their friend's Internet).",
-    "message": "Continue Browsing Without uProxy"
+    "message": "Nastavi surfovanje bez uProxy"
   },
   "SHARING_UNAVAILABLE_TITLE": {
     "description": "Title for error that appears when the user can not share their Internet access with friends.",
-    "message": "Sharing Unavailable"
+    "message": "Deljenje Nedostupno"
   },
   "SHARING_UNAVAILABLE_MESSAGE": {
     "description": "Text for error that appears when the user can not share their Internet access with friends.",
-    "message": "Oops! You're using Firefox 37, which has a bug that prevents sharing from working (see git.io/vf5x1). This bug is fixed in Firefox 38, so you can enable sharing by upgrading Firefox or switching to Chrome."
+    "message": "Upsss! Vi koristite Firefox 37, ova verzija sadrži grešku koja onemogućuje deljenje konekcije (pogledaj git.io/vf5x1). Ova greška je ispravljena na Firefox 38, tako da bi ste bili u mogućnosti da delite konekciju morate da nadogradite ili da se prebacite na Chrome."
   },
   "LOADING_FRIENDS": {
     "description": "User's friends are being loaded from a social network.",
-    "message": "Loading uProxy friends"
+    "message": "Učitavam uProxy prijatelje"
   },
   "OFFERS": {
     "description": "Title for the group of friends who have sent offers of access to their Internet, which the user have not yet accepted.",
-    "message": "Offers"
+    "message": "Ponude"
   },
   "REQUESTS": {
     "description": "Title for the group of friends who have sent requests to access the user's Internet, which the user have not yet granted.",
-    "message": "Requests"
+    "message": "Zahtevi"
   },
   "FRIENDS_WHO_SHARE": {
     "description": "Title for the group of friends who the user can get Internet access from.",
-    "message": "Friends you can get access from"
+    "message": "Prijatelji kome možete da se pristupite"
   },
   "FRIENDS_WHO_CAN_GET": {
     "description": "Title for the group of friends who can access the Internet through the user.",
-    "message": "Friends who can get access from you"
+    "message": "Prijatelji koji imaju pristup vama"
   },
   "UPROXY_FRIENDS": {
     "description": "Title for the group of friends who have uProxy but who don't fit into any of the other contact groups.",
-    "message": "Friends who have uProxy"
+    "message": "Prijatelji koji imaju uProxy"
   },
   "NOT_CONNECTED_LOGIN_TO_START": {
     "description": "Text in settings that informs the user they should sign in to a social network to get started.",
-    "message": "Login to get started"
+    "message": "Prijavi se, da počnemo sa radom"
   },
   "CONNECTED_WITH": {
     "description": "Text in settings that informs the user which social network they're connected to.",
-    "message": "Connected with __network__"
+    "message": "Spojen sa __network__"
   },
   "CONNECTED_WITH_NUMBER": {
     "description": "Text in settings informing the user of how many networks they're connected to.",
-    "message": "Connected with __number__ networks"
+    "message": "Spojeno sa __number__ networks"
   },
   "NAME_THIS_DEVICE": {
     "description": "If the user has not named their device (e.g. 'laptop' or 'home computer'), they will see this message in the Settings panel.",
-    "message": "Name this device"
+    "message": "Ime ovog uređaja"
   },
   "DEVICE_DESCRIPTION": {
     "description": "Title for the section in Settings where the user can edit the name of their device.",
-    "message": "Device description"
+    "message": "Opis Uređaja"
   },
   "DESCRIPTION": {
     "description": "Placeholder for the input field for the name of the user's device.",
-    "message": "Description"
+    "message": "Opis"
   },
   "CONNECTED_ACCOUNTS": {
     "description": "In settings, title for the social networks you can connect to.",
-    "message": "Connected Accounts"
+    "message": "Spojeni Nalozi"
   },
   "CONNECT": {
     "description": "User clicks this to connect to a network",
-    "message": "Connect"
+    "message": "Poveži"
   },
   "DISCONNECT": {
     "description": "User clicks this to disconnect from a network",
-    "message": "Disconnect"
+    "message": "Prekini vezu"
   },
   "SAVE": {
     "description": "Label for button that saves the user's text input.",
-    "message": "Save"
+    "message": "Sačuvaj"
   },
   "RESTART": {
     "description": "Restart uProxy completely.",
-    "message": "Restart"
+    "message": "Ponovo pokreni"
   },
   "ADVANCED_SETTINGS": {
     "description": "Clickable text from the Settings menu. Clicking this opens the advanced settings screen.",
-    "message": "Advanced Settings"
+    "message": "Napredne postavke"
   },
   "ADVANCED_SETTINGS_SENTENCE_CASE": {
     "description": "Title for the advanced settings screen.",
-    "message": "Advanced settings"
+    "message": "Napredne postavke"
   },
   "EDIT_ADVANCED_SETTINGS": {
     "description": "Instruction for the user to edit their advanced settings (by typing JSON in a textbox).",
-    "message": "Edit your settings below"
+    "message": "Izmeni podešavanja ispod"
   },
   "EDIT_ADVANCED_SETTINGS_PLACEHOLDER": {
     "description": "Default text in the advanced settings textbox.",
-    "message": "Edit your settings"
+    "message": "Izmeni podešavanja"
   },
   "SETTINGS_SAVED": {
     "description": "Message that confirms to the user that their advanced settings were saved.",
-    "message": "Settings saved"
+    "message": "Podešavanje sačuvano"
   },
   "SETTINGS_BAD_FORMAT_ERROR": {
     "description": "Error shown to the user if their input for advanced settings is badly formed JSON.",
-    "message": "Could not set: bad format"
+    "message": "Nije podešeno: loš format"
   },
   "SETTINGS_JSON_ERROR": {
     "description": "Error shown to the user if their input for advanced settings is incomplete or incompatible with expected settings configurations.",
-    "message": "Could not set: JSON value mismatch"
+    "message": "Nije podešeno: JSON value mismatch"
   },
   "SET": {
     "description": "Label for button that saves the user's advanced settings.",
-    "message": "SET"
+    "message": "Postavi"
   },
   "ABOUT_UPROXY": {
     "description": "Description on uProxy's introduction screen explaining what uProxy is.",
-    "message": "uProxy helps you share your access to the internet or get internet access from friends"
+    "message": "uProxy vam omogućava da delite vaš pristup internetu ili da dobijete internet pristup od prijatelja"
   },
   "NEXT": {
     "description": "Label for button that proceeds from the introduction page to the login page.",
@@ -553,7 +553,7 @@
   },
   "LEARN_MORE_UPROXY": {
     "description": "Label for button that brings user to more information about uProxy.",
-    "message": "Saznajte vise o uProxy"
+    "message": "Saznajte više o uProxy"
   },
   "WHICH_SOCIAL_NETWORK": {
     "description": "Question seen at the top of uProxy's login page. Asks which social network should be used to find the user's friends.",
@@ -561,7 +561,7 @@
   },
   "WHY_SOCIAL_NETWORK": {
     "description": "Explains why uProxy needs social networks. (Friends need to login with the same social network on uProxy for friends to see each other.)",
-    "message": "uProxy uses social networks to help you set up connections with your friends"
+    "message": "uProxy koristi društvene mreže da bi lakše podesili konekcije sa vašim prijateljima"
   },
   "SET_UP_ONE_TIME": {
     "description": "Clickable link on the login page. As an alternative to logging in to a social network, user's can attempt a connection with a one-time link.",
@@ -569,11 +569,11 @@
   },
   "WE_WONT_POST": {
     "description": "Inform the user that uProxy does not share data or post to their social network accounts without agreement from the user.",
-    "message": "We won't share your data or post publicly without your consent"
+    "message": "Mi nećemo da delimo vaše podatke bez vašeg odobrenja"
   },
   "WE_WONT_POST_LEARN_MORE": {
     "description": "Inform the user that uProxy does not share data or post to their social network accounts without agreement from the user.",
-    "message": "We won't share your data or post publicly without your consent. <uproxy-faq-link anchor='whyDoesUproxyConnect'>Learn more</uproxy-faq-link>"
+    "message": "Mi nećemo da delimo vaše podatke bez vašeg odobrenja. <uproxy-faq-link anchor='whyDoesUproxyConnect'>Saznaj više</uproxy-faq-link>"
   },
   "HAVE_AN_INVITE_CODE": {
     "description": "Text above a button that asks the user if they already have a uProxy invite code",
@@ -773,7 +773,7 @@
   },
   "CLOUD_INVITE_CONFIRM" : {
     "description": "Confirmation message asking the user if they would like to add a cloud instance to their buddy list, which will connect them to a virtual machine.",
-    "message": "You're about to connect to a uProxy cloud server! Thanks for being one of our first testers of this experimental feature. Would you like to continue?"
+    "message": "Vi ste u procesu spajanja sa uProxy cloud server! Zahvaljujemo se što ste jedan od prvih testera ove eksperimentalne funkcije. Da li želite da nastavite?"
   },
   "FRIEND_ADDED": {
     "description": "Confirmation message after adding a friend to the roster.",
@@ -801,7 +801,7 @@
   },
   "INVITE_LINK_FROM_ACCEPT_PAGE": {
     "description": "Link to send an invite if the user is already on the accept-invite page.",
-    "message": "I'd like to send an invitation instead."
+    "message": "Ipak bi želeo da pošaljem pozivnicu."
   },
   "INVITE_A_FRIEND": {
     "description": "Title for screen where user invites a friend to uProxy",
@@ -809,11 +809,11 @@
   },
   "HOW_TO_INVITE_FRIENDS": {
     "description": "Question above network select dropdown on invite screen",
-    "message": "How would you like to invite to your friends?"
+    "message": "Kako bi ste želeli da pozovte vaše prijatelje?"
   },
   "FIND_YOUR_FRIENDS_ON_A_SOCIAL_NETWORK": {
     "description": "Title above social network icons on the page to find and/or invite friends.",
-    "message": "Find your friends on a social network."
+    "message": "Pronđi prijatelja na društvenoj mreži."
   },
   "FACEBOOK_INVITE_INSTRUCTIONS": {
     "description": "Invite instructions for Facebook",
@@ -833,11 +833,11 @@
   },
   "GITHUB_INVITE_PLACEHOLDER": {
     "description": "Placeholder in input box for the GitHub username of the friend the user is inviting",
-    "message": "Friend's GitHub username"
+    "message": "Prijateljovo korisničko ime na GitHub"
   },
   "ADD_A_CLOUD_FRIEND": {
     "description": "Title for screen where user adds a Cloud instance (virtual machine) to use uProxy with",
-    "message": "Add a Cloud friend"
+    "message": "Dodaj Cloud prijatelja"
   },
   "ADD_CLOUD_INSTRUCTIONS": {
     "description": "If the user is trying to add a Cloud friend, instruct them to click on the link to enter an invitation.",
@@ -845,11 +845,11 @@
   },
   "CLOUD_INVITE_INSTRUCTIONS": {
     "description": "Invite instructions for Cloud",
-    "message": "Enter your invite code. When a connection has been made, it will appear in your contact list."
+    "message": "Unesite vaš kôd pozivnice. Kada se pristupite konekciji, pojaviće se na kontaktnoj listi."
   },
   "CLOUD_INVITE_PLACEHOLDER": {
     "description": "Placeholder in input box for the invite code.",
-    "message": "Invite code"
+    "message": "Kôd Pozivnice"
   },
   "CLOUD_INVITE_FAILED": {
     "description": "Dialog text informing user that a connection could not be made to their cloud instance",
@@ -857,15 +857,15 @@
   },
   "CLOUD_VIRTUAL_MACHINE": {
     "description": "Refers to a remote server users can proxy from",
-    "message": "a virtual machine"
+    "message": "Virtualna Mašina"
   },
   "SEND_INVITATION": {
     "description": "Button text to initiate sending an invitation",
-    "message": "Send invitation"
+    "message": "Pošalji pozivnicu"
   },
   "INVITE_SENT_CONFIRMATION": {
     "description": "Dialog text to confirm that an invite was sent to the user's friend",
-    "message": "Invite sent to __name__!"
+    "message": "Pozivnica je poslata __name__!"
   },
   "GITHUB_INVITE_SEND_FAILED": {
     "description": "Dialog text informing user that a GitHub friend request failed.",
@@ -909,7 +909,7 @@
   },
   "FAQ_SENTENCE_CASE": {
     "description": "Title of the FAQ window",
-    "message": "Get Help"
+    "message": "Zatraži pomoć"
   },
   "CONFIRM_LOGOUT_FOR_COPYPASTE": {
     "description": "If a user is signed in to social network(s) and attempt to start a one-time connection, this message informs them that they must first log out of all social networks.",
@@ -1063,7 +1063,7 @@
   },
   "WHAT_IS_PORT_CONTROL": {
     "description": "",
-    "message": "What is port control?"
+    "message": "Šta je kontrola porta?"
   },
   "WHAT_IS_PORT_CONTROL_ANSWER": {
     "description": "",
@@ -1075,7 +1075,7 @@
   },
   "HOW_DOES_UPROXY_COMPARE_ANSWER": {
     "description": "",
-    "message": "<p>uProxy je dizajniran da bude pouzdan i otporan na blokadu sadržaja.</p><p>VPN korisnici uglvavnom se spajaju na dobro poznate servere, i VPN saobracaj sa lakoćom se može identifikovani i blokirati. Za razliku od VPN, uProxy korisnici se međusobno spajaju umesto na uobičajne servere, i zato je saobraćaj uProxy teško identifikovati i blokirati.</p><p>I još, VPN provajderi mogu da vide na koje ste sajtove pristupili, i mnogi od ovih podataka nisu privatni. Dok korisnici uProxy stavljaju poverenje svoje konekcije samo prijateljima tj. ljudima koji poznajemo, umesto VPN provajderima koji ionako ne znamo mnogo.</p><p>Ne samo što ne znamo šta VPN provajderi rade sa podacima korisnika, takođje je tesko imati poverenja u VPN klijet-server softver, naročito kad je zatvoren kod. Dok je uProxy otvoren kod, i suočava se sa javnim ispitivanjem tog koda. Kad je god moguće, uProxy će izbegavati zahteve da od korisnika da stavi veru u softver čija se pouzdanost ne može potvrditi.</p>"
+    "message": "<p>uProxy je dizajniran da bude pouzdan i otporan na blokadu sadržaja.</p><p>VPN korisnici uglvavnom se spajaju na dobro poznate servere, i VPN saobraćaj sa lakoćom se može identifikovani i blokirati. Za razliku od VPN, uProxy korisnici se međusobno spajaju umesto na uobičajne servere, i zato je saobraćaj uProxy teško identifikovati i blokirati.</p><p>I još, VPN provajderi mogu da vide na koje ste sajtove pristupili, i mnogi od ovih podataka nisu privatni. Dok korisnici uProxy stavljaju poverenje svoje konekcije samo prijateljima tj. ljudima koji poznajemo, umesto VPN provajderima koji ionako ne znamo mnogo.</p><p>Ne samo što ne znamo šta VPN provajderi rade sa podacima korisnika, takođje je tesko imati poverenja u VPN klijet-server softver, naročito kad je zatvoren kod. Dok je uProxy otvoren kod, i suočava se sa javnim ispitivanjem tog koda. Kad je god moguće, uProxy će izbegavati zahteve da od korisnika da stavi veru u softver čija se pouzdanost ne može potvrditi.</p>"
   },
   "WHO_MADE_UPROXY": {
     "description": "",
@@ -1111,7 +1111,7 @@
   },
   "BACK_TO_TOP": {
     "description": "",
-    "message": "Back to top"
+    "message": "Nazad na vrh"
   },
   "UPROXY_NETWORK_LOGIN_TITLE": {
     "description": "Title for when the user is logging into the uProxy network (via settings or a link)",
